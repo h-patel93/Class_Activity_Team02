@@ -22,6 +22,14 @@ public class SplashScreenM extends AppCompatActivity {
         logolauncher.start();
 
 
+        /*  requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
+        setContentView(R.layout.activity_splash_screen);
+        getSupportActionBar().hide();
+        LogoLauncher logoLauncher = new LogoLauncher();
+        logoLauncher.start();*/
+
     }
 
 
@@ -33,7 +41,7 @@ public class SplashScreenM extends AppCompatActivity {
                 sleep(1000*4);
             }
             catch (InterruptedException e)
-                    
+
             {
                 e.printStackTrace();
             }
